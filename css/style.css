@@ -1,0 +1,582 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+/* theme CSS start */
+header{
+
+background-color: #87509c;
+
+width: 100%;
+
+float: left;
+
+padding: 25px 0px;
+
+text-align: center;
+}
+.logo{
+
+width: 35%;
+
+float: left;
+}
+.logo-img{
+	margin-right: 245px;
+}
+.menu{
+
+width: 65%;
+
+float: left;
+}
+nav ul{
+
+list-style: none;
+}
+nav ul li{
+
+display: inline-block;
+
+margin: 10px 30px;
+
+}
+nav ul li a {
+
+color: #fff;
+
+font-size: 25px;
+
+text-decoration: none;
+}
+.header-banner{
+
+  width: 65%;
+
+margin: 0 auto;
+text-align: center;
+
+padding: 103px 0px;
+}
+.header-banner h2{
+	color: #fff;
+	font-size: 22px;
+	line-height: 32px;
+	letter-spacing: 1px;
+}
+.btn{
+	
+background: #eb7d4b;
+	
+padding: 10px 30px;
+	
+border: none;
+	
+margin: 18px 0px;
+	
+font-size: 22px;
+	
+color: #fff;
+	
+box-shadow: 0px 4px #eb7d4ba6;
+}
+/* service section start */
+
+.service{
+
+width: 100%;
+
+float: left;
+
+padding: 25px 0px;
+
+background: #17c2a4;
+}
+.service-title{
+
+width: 55%;
+
+margin: 0 auto;
+}
+.service-title h2{
+	
+text-align: center;
+
+}
+.service-title span{
+	
+border-bottom: 3px solid #161616;
+	
+display: block;
+	
+width: 11%;
+	
+margin: 10px auto;
+}
+.service-title p{
+	
+text-align: center;
+color: #3F3E3D;
+}
+.service-feature{
+
+width: 100%;
+
+float: left;
+}
+.service-one{
+
+width: 22%;
+
+float: left;
+
+text-align: center;
+
+margin: 10px 15px;
+}
+.service-one img{
+
+}
+.service-one h2{
+
+color: #fff;
+
+margin: 5px;
+}
+.service-one p{
+
+color: #fff;
+
+text-align: center;
+}
+/* services sector end */
+
+
+/* team section start */
+.team{
+
+width: 100%;
+
+float: left;
+
+padding: 25px 0px;
+
+background: #D2D2D1;
+}
+.team-title{
+
+width: 55%;
+
+margin: 0 auto;
+}
+.team-title h2{
+	
+text-align: center;
+}
+.team-title span{
+	
+border-bottom: 3px solid #161616;
+	
+display: block;
+	
+width: 11%;
+	
+margin: 10px auto;
+}
+.team-title p{
+	
+text-align: center;
+color: #3F3E3D;
+}
+.team-feature{
+
+width: 100%;
+
+float: left;
+}
+.team-one{
+
+width: 22%;
+
+float: left;
+
+text-align: center;
+
+margin: 10px 15px;
+}
+.team-one img{
+	height: 220px;
+    width: auto;
+
+}
+.team-one h2{
+
+margin: 5px 5px 0px 5px;
+}
+.team-one h4{
+	color: #3F3E3D;
+
+}
+.team-one p{
+margin: 15px;
+
+text-align: center;
+}
+
+.social-icon{
+	width:100%;
+	float: left;
+
+}
+.social-icon ul {
+	list-style: none;
+
+}
+.social-icon ul li {
+    display: inline-block;
+    padding: 0px 2px;
+}
+.social-icon ul li a{
+	color: #fff;
+	display: block;
+	border-radius: 50%;
+	}
+/* skills section start */
+
+.skills{
+
+width: 100%;
+
+float: left;
+
+padding: 25px 0px;
+
+background: #FEFEFD;
+}
+.skills-title{
+
+width: 55%;
+
+margin: 0 auto;
+}
+.skills-title h2{
+	
+text-align: center;
+
+}
+.skills-title span{
+	
+border-bottom: 3px solid #161616;
+	
+display: block;
+	
+width: 11%;
+	
+margin: 10px auto;
+}
+.skills-title p{
+	
+text-align: center;
+color: #3F3E3D;
+}
+.skills-feature{
+
+width: 100%;
+
+float: left;
+}
+.skills-one{
+
+width: 22%;
+
+float: left;
+
+text-align: center;
+
+margin: 10px 15px;
+}
+.skills-one img{
+
+	height: 200px;
+    width: auto;
+
+
+
+}
+.skills-one h4{
+
+color: black;
+}
+.skills-one h2{
+
+color: black;
+
+margin: 5px;
+}
+/* end of skills section */
+/* start portfolio section */
+.portfolio{
+
+width: 100%;
+
+float: left;
+
+padding: 25px 0px;
+
+background: #FFDC98;
+}
+.portfolio-title{
+
+width: 55%;
+
+margin: 0 auto;
+}
+.portfolio-title h2{
+	
+text-align: center;
+
+}
+.portfolio-title span{
+	
+border-bottom: 3px solid #161616;
+	
+display: block;
+	
+width: 11%;
+	
+margin: 10px auto;
+}
+.portfolio-title p{
+	
+text-align: center;
+color: #161616;
+}
+.button{
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.btn-one{
+	background-color: #EBC985;
+    color: #393939;
+    padding: 10px 30px;
+    font-size: 15px;
+    border: none;
+    margin: 40px 20px;
+    border-radius: 12px;
+
+}
+.portfolio-one{
+width: 100%
+float:left;
+}
+.portfolio-contant{
+	   width: 50%;
+	   float :left;
+}
+.portfolio-img{
+	   
+
+}
+.portfolio-img img{
+	    padding: 50px 0px;
+
+}
+
+
+.portfolio-contant h6{
+	       color: #393939;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.button-three {
+    width: 30%;
+    margin: 0 auto;
+}
+.btn-three {
+    background-color: #17C2A4;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    border: none;
+    margin: 40px 0px;
+    box-shadow: 0px 4px #14A58C;
+}
+/* end portfolio section */
+
+/* start testimonial section */
+.testimonial{
+
+width: 100%;
+
+float: left;
+
+padding: 25px 0px;
+
+background: #D74680;
+}
+.testimonial-title{
+
+width: 55%;
+
+margin: 0 auto;
+}
+.testimonial-title h2{
+	
+text-align: center;
+
+}
+.testimonial-title span{
+	
+border-bottom: 3px solid #161616;
+	
+display: block;
+	
+width: 11%;
+	
+margin: 10px auto;
+}
+.testimonial-title p{
+	
+text-align: center;
+color: #161616;
+}
+.testimonial-one{
+width: 50%;
+float:left;
+margin-top: 20px;
+}
+.testimonial-img{
+	    width: 30%;
+     float: left;
+
+}
+.testimonial-img img{
+	display: block;
+	max-width: 150px;
+
+}
+.testimonial-contant{
+	    width: 70%;
+       float: left;
+       margin-top: 30px;
+
+}
+.testimonial-contant p{
+	color: #fff;
+    line-height: 25px;
+    text-align: justify;
+
+}
+.testimonial-contant h2{
+	margin-top: 15px;
+    color: #fff;
+
+}
+.testimonial-contant h6{
+	    margin-left: 5px;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 7px;
+}
+
+/* 1D3C59 */
+.contact{
+
+width: 100%;
+
+float: left;
+
+padding: 25px 0px;
+
+background: #1D3C59;
+}
+.contact-title{
+
+width: 55%;
+
+margin: 0 auto;
+}
+.contact-title h2{
+	
+text-align: center;
+color: #fff;
+
+}
+.contact-title span{
+	
+border-bottom: 3px solid #161616;
+	
+display: block;
+	
+width: 11%;
+	
+margin: 10px auto;
+}
+.contact-title p{
+	
+text-align: center;
+color: #fff;
+}
+.contact-form{
+    width: 60%;
+    margin: 15px auto
+
+}
+.form-control{
+    background: #183065;
+    width: 47%;
+    float: left;
+    height: 30px;
+    margin-left: 5px;
+    padding: 2px;
+
+}
+.cstm-textarea{
+    margin: 20px 0px 0px 5px;
+    width: 97%;
+    height: 150px;
+    padding: 0px 0px;
+    background: #183065;
+
+}
+.submit-btn{
+	margin-left: 280px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background: #85BADF;
+}
+/* start footer section */
+footer{
+width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background-color: #344B8E;
+}
+.footer-menu{
+	
+}
+.footer-menu ul{
+
+}
+.footer-menu ul li{
+	display: inline-block;
+}
+.footer-menu ul li a{
+	color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 53px;
+    font-weight: bold;
+}
